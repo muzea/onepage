@@ -1,0 +1,32 @@
+html,body{
+	margin: 0;
+	overflow: hidden;
+}
+body, #onepage, html {
+	display: block;
+	position: static;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+#onepage {
+	transition: transform .5s;
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: relative;
+	padding: 0;
+	/*
+	-webkit-transform-style: preserve-3d;
+	*/
+}
+.onepage{
+	width: 100%;
+	height: 100%;
+}
+.bg-red{
+	background-color: red;
+}
+.bg-blue{
+	background-color: blue;
+}
